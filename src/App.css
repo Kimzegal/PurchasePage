@@ -2,37 +2,105 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  color: white;
+  font-size: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: min(calc(48px + 2vmin), 55px);
+  color: crimson;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h3 {
+  font-size: min(calc(20px + 2vmin), 24px);
+}
+
+h4 {
+  font-size: min(calc(16px + 2vmin), 20px);
+  margin: 2px 0px;
+
+  color: gray;
+}
+
+h5 {
+  padding-top: 30px;
+  font-size: min(calc(20px + 2vmin), 24px);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+aside {
+  margin-right: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  margin: 20px; /* img의 상단에 10px의 마진 추가 */
+}
+
+footer {
+  background-color: black;
+  color: gray;
+  text-align: center;
+}
+
+.header {
+  background-color: #75a302;
+  text-align: center;
+  margin: auto;
+  font-size: min(calc(10px + 2vmin), 24px);
+  color: red;
+}
+
+.headerHr {
+  width: 95%;
+  height: 0.1px;
+  background-color: white;
+}
+
+.bodyHr {
+  width: 30px;
+  height: 3px;
+  background-color: gray;
+}
+
+.list {
+  margin-bottom: 25px;
+}
+
+.xlink {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.otherlink {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainSection {
+  display: flex;
+  justify-content: center;
+}
+
+.w-btn {
+  width: 50%;
+  margin: 10px 0px;
+  position: relative;
+  border: none;
+  display: block;
+  padding: 15px 130px;
+  border-radius: 15px;
+  font-family: "paybooc-Light", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.25s;
+}
+
+.w-btn-red {
+  background-color: #ff5f2e;
+  color: #e1eef6;
 }
